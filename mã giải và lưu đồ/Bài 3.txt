@@ -1,0 +1,9 @@
+BEGIN
+   INPUT a
+   INPUT b
+   INPUT c
+   IF a > b AND a > c THEN DISPLAY a
+   ELSE IF B > C THEN DISPLAY B
+   ELSE DISPLAY C
+   END IF
+END 

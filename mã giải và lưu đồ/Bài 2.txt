@@ -1,0 +1,6 @@
+BEGIN
+   INPUT USD
+   INPUT Ty Gia
+   VNĐ = USD * Ty Gia
+   DISPLAY VNĐ
+END 

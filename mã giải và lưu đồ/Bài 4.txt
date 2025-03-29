@@ -1,0 +1,7 @@
+BEGIN
+   INPUT n
+   INPUT a1, a2, a3,..., an
+   max = a1
+   IF ai > max THEN max = ai
+   DISPLAY max
+END 

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>bang cuu chuong</title>
+    <style>
+        table {
+            border-collapse: collapse;
+            margin: 20px;
+            width: 50%;
+        }
+        td, th {
+            border: 1px solid black;
+            padding: 10px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+<h1>Bảng Cửu Chương</h1>
+<table>
+    <thead>
+    <tr>
+        <th>Multiplication</th>
+        <th>Result</th>
+    </tr>
+    </thead>
+    <tbody id="multiplicationTable"></tbody>
+</table>
+<script>
+    const tableBody = document.getElementById("multiplicationTable");
+    for (let i = 1; i <= 9; i++) {
+        for (let j = 1; j <= 9; j++) {
+            const row = document.createElement("tr");
+
+            const cell1 = document.createElement("td");
+            cell1.textContent = `${i} x ${j}`;
+            row.appendChild(cell1);
+
+            const cell2 = document.createElement("td");
+            cell2.textContent = i * j;
+            row.appendChild(cell2);
+
+            tableBody.appendChild(row);
+        }
+    }
+</script>
+
+</body>
+</html>

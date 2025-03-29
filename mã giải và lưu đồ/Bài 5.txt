@@ -1,0 +1,12 @@
+BEGIN
+   INPUT điểm (<= 100)
+   IF grade >= 75 THEN DISPLAY Loai A
+   ELSE IF grade >= 60 THEN DISPLAY Loai B
+   ELSE IF grade >= 45 THEN DISPLAY Loai C
+   ELSE IF grade >= 35 THEN DISPLAY Loai D
+   ELSE IF grade < 35 THEN DISPLAY Loai E
+   END IF
+END IF
+END IF
+END IF
+END 
